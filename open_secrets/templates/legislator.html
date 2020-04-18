@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for legislator in legislators %}
+        <ul>
+            <li>{{ legislator.legislator.cid }}</li>
+            <li>{{ legislator.legislator.firstlast }}</li>
+            <li>{{ legislator.legislator.lastname }}</li>
+            <li>{{ legislator.legislator.party }}</li>
+            <li>{{ legislator.legislator.office }}</li>
+            <li>{{ legislator.legislator.gender }}</li>
+        </ul>
+    {% endfor %}
+
+{% endblock %}
+
+
+<!-- {% for item in items %}
+    <tr><td>{{ forloop.counter }}: {{ item.text }}</td></tr>
+{% endfor %} -->

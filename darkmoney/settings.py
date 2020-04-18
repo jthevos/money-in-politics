@@ -37,7 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'open_secrets',
+    'rest_framework',
 ]
+
+OPEN_SECRETS_KEY = '97d72deccf8595a00c278e46e19939f9'
+# Template directory setting
+TEMPLATE_DIRS = (
+    os.path.join(os.path.dirname(__file__), 'templates'),
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
