@@ -17,11 +17,12 @@ from django.urls import path
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from open_secrets.views import save_embed
-
-
-
+from open_secrets.views import add_legislators, org_summary, view_leg, LegislatorView
+from open_secrets.models import Legislator, Organization
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^', save_embed),
+    path('', add_legislators, name='home'),
+    path('legislator/<str:pk>', LegislatorView.as_view() ),
+    path('add', add_legislators, name='add_legislators'),
+    path('organization/<str:pk>', org_summary, name='organization'),
 ]

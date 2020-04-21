@@ -1,0 +1,30 @@
+{
+    "_comment": "This is if a single resource is requested.",
+    "response": {
+        "legislator": {
+            "@attributes": {
+                "cid": "N00007360",
+                "firstlast": "Nancy Pelosi",
+                "lastname": "PELOSI",
+                "party": "D",
+                "office": "CA12",
+                "gender": "F",
+                "first_elected": "1987",
+                "exit_code": "0",
+                "comments": "",
+                "phone": "202-225-4965",
+                "fax": "202-225-8259",
+                "website": "http://pelosi.house.gov",
+                "webform": "http://pelosi.house.gov/contact-me/email-me",
+                "congress_office": "233 Cannon House Office Building",
+                "bioguide_id": "P000197",
+                "votesmart_id": "26732",
+                "feccandid": "H8CA05035",
+                "twitter_id": "NancyPelosi",
+                "youtube_url": "https://youtube.com/nancypelosi",
+                "facebook_id": "NancyPelosi",
+                "birthdate": "1940-03-26"
+            }
+        }
+    }
+}

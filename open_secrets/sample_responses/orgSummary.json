@@ -1,0 +1,26 @@
+{
+    "response": {
+        "organization": {
+            "@attributes": {
+                "cycle": "2020",
+                "orgid": "D000000125",
+                "orgname": "General Electric",
+                "total": "1309616",
+                "indivs": "382766",
+                "pacs": "921500",
+                "soft": "5350",
+                "tot527": "0",
+                "dems": "690276",
+                "repubs": "611683",
+                "lobbying": "5640000",
+                "outside": "0",
+                "mems_invested": "60",
+                "gave_to_pac": "40",
+                "gave_to_party": "137362",
+                "gave_to_527": "0",
+                "gave_to_cand": "909736",
+                "source": "www.opensecrets.org/orgs/summary.php?id=D000000125"
+            }
+        }
+    }
+}

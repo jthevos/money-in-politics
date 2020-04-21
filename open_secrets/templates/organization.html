@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form action="/organization" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Search Org"/>
+    </form>
+    <br>
+    <ul>
+        <li>{{ organization.orgid }}</li>
+        <li>{{ organization.orgname }}</li>
+        <li>{{ organization.total }}</li>
+        <li>{{ organization.indivs }}</li>
+        <li>{{ organization.pacs }}</li>
+        <li>{{ organization.soft }}</li>
+        <li>{{ organization.dems }}</li>
+        <li>{{ organization.repubs }}</li>
+        <li>{{ organization.lobbying }}</li>
+        <li>{{ organization.gave_to_party }}</li>
+        <li>{{ organization.gave_to_cand }}</li>
+    </ul>
+
+
+{% endblock %}
+
+
+<!-- {% for item in items %}
+    <tr><td>{{ forloop.counter }}: {{ item.text }}</td></tr>
+{% endfor %} -->

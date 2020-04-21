@@ -1,0 +1,806 @@
+{
+    "response": {
+        "indexp": [
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "266761",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Google, Inc.",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "194746",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "R",
+                    "payee": "Targeted Platform Media LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00484642",
+                    "pacshort": "Senate Majority PAC",
+                    "suppopp": "FOR:",
+                    "candname": "Greenfield, Theresa",
+                    "district": "IAS2",
+                    "amount": "129573",
+                    "note": "Digital Ad Buy & Production - Estimate",
+                    "party": "D",
+                    "payee": "Chong Koster LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "112771",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Google, Inc.",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "81803",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "R",
+                    "payee": "Targeted Platform Media LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Feenstra, Randy",
+                    "district": "IA04",
+                    "amount": "44000",
+                    "note": "Production costs for online videos & GIF Ads",
+                    "party": "R",
+                    "payee": "Meath Media Group",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Scott, David",
+                    "district": "GA13",
+                    "amount": "40700",
+                    "note": "Production costs for online videos & GIF Ads",
+                    "party": "D",
+                    "payee": "Meath Media Group",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Gideon, Sara",
+                    "district": "MES2",
+                    "amount": "38829",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Facebook",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Schrader, Kurt",
+                    "district": "OR05",
+                    "amount": "37000",
+                    "note": "Production costs for online videos & GIF Ads",
+                    "party": "D",
+                    "payee": "Meath Media Group",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "30985",
+                    "note": "PRODUCTION COST: VIDEO",
+                    "party": "D",
+                    "payee": "SOMETHING ELSE STRATEGIES, LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00075820",
+                    "pacshort": "National Republican Congressional Cmte",
+                    "suppopp": "AGAINST:",
+                    "candname": "Smith, Christy",
+                    "district": "CA25",
+                    "amount": "30572",
+                    "note": "MEDIA",
+                    "party": "D",
+                    "payee": "HONOLD COMMUNICATIONS",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "30380",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Facebook",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Gideon, Sara",
+                    "district": "MES2",
+                    "amount": "29892",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Google, Inc.",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Gideon, Sara",
+                    "district": "MES2",
+                    "amount": "16917",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Verizon",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "12109",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Facebook",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Feenstra, Randy",
+                    "district": "IA04",
+                    "amount": "6363",
+                    "note": "Facebook Ad Design Costs",
+                    "party": "R",
+                    "payee": "The Lukens Company",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Scott, David",
+                    "district": "GA13",
+                    "amount": "5181",
+                    "note": "Facebook Ad Design Costs",
+                    "party": "D",
+                    "payee": "A-D Strategies LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Schrader, Kurt",
+                    "district": "OR05",
+                    "amount": "5000",
+                    "note": "Website Landing Page Costs",
+                    "party": "D",
+                    "payee": "A-D Strategies LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Scott, David",
+                    "district": "GA13",
+                    "amount": "5000",
+                    "note": "Website Landing Page Costs",
+                    "party": "D",
+                    "payee": "A-D Strategies LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00484642",
+                    "pacshort": "Senate Majority PAC",
+                    "suppopp": "FOR:",
+                    "candname": "Greenfield, Theresa",
+                    "district": "IAS2",
+                    "amount": "4222",
+                    "note": "Media Production Costs - Estimate",
+                    "party": "D",
+                    "payee": "Dixon/Davis Media Group LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Gideon, Sara",
+                    "district": "MES2",
+                    "amount": "3876",
+                    "note": "Ad Production (Estimate)",
+                    "party": "D",
+                    "payee": "Lamar Street Communications",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Schrader, Kurt",
+                    "district": "OR05",
+                    "amount": "3848",
+                    "note": "Facebook Ad Design Costs",
+                    "party": "D",
+                    "payee": "A-D Strategies LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Gideon, Sara",
+                    "district": "MES2",
+                    "amount": "3183",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Hulu, LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00504530",
+                    "pacshort": "Congressional Leadership Fund",
+                    "suppopp": "AGAINST:",
+                    "candname": "Smith, Christy",
+                    "district": "CA25",
+                    "amount": "2921",
+                    "note": "Text messages",
+                    "party": "D",
+                    "payee": "Advantage Direct Communications",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "2706",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "R",
+                    "payee": "Targeted Platform Media LLC",
+                    "date": "2020-04-17 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "272436",
+                    "note": "DIGITAL ADVERTISING",
+                    "party": "D",
+                    "payee": "TARGETED VICTORY, LLC",
+                    "date": "2020-04-16 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "151276",
+                    "note": "DIGITAL ADVERTISING",
+                    "party": "D",
+                    "payee": "TARGETED VICTORY, LLC",
+                    "date": "2020-04-16 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "116050",
+                    "note": "DIGITAL ADVERTISING",
+                    "party": "D",
+                    "payee": "TARGETED VICTORY, LLC",
+                    "date": "2020-04-16 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00544767",
+                    "pacshort": "Committee to Defend the President",
+                    "suppopp": "FOR:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "26000",
+                    "note": "TELEVISION ADVERTISING",
+                    "party": "R",
+                    "payee": "RRTVMEDIA LLC",
+                    "date": "2020-04-16 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00592303",
+                    "pacshort": "Oregon Right To Life Victory PAC",
+                    "suppopp": "AGAINST:",
+                    "candname": "Buehler, Knute",
+                    "district": "OR02",
+                    "amount": "25000",
+                    "note": "Digital advertising",
+                    "party": "R",
+                    "payee": "OnMessage Inc.",
+                    "date": "2020-04-16 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00448696",
+                    "pacshort": "Senate Conservatives Fund",
+                    "suppopp": "FOR:",
+                    "candname": "Daines, Steven",
+                    "district": "MTS2",
+                    "amount": "2575",
+                    "note": "IE-Daines-Email Marketing",
+                    "party": "R",
+                    "payee": "Alliance Strategies Group Inc.",
+                    "date": "2020-04-16 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "942998",
+                    "note": "PLACED MEDIA: TV",
+                    "party": "D",
+                    "payee": "DEL RAY MEDIA LLC",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "408891",
+                    "note": "PLACED MEDIA:  TV",
+                    "party": "D",
+                    "payee": "DEL RAY MEDIA LLC",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "319945",
+                    "note": "PLACED MEDIA: TV",
+                    "party": "D",
+                    "payee": "DEL RAY MEDIA LLC",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "130291",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Verizon",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "FOR:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "45996",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "D",
+                    "payee": "Verizon",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00738674",
+                    "pacshort": "NARAL FREEDOM FUND",
+                    "suppopp": "AGAINST:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "27965",
+                    "note": "Production and digital media buy (estimated)",
+                    "party": "R",
+                    "payee": "New Media Firm, Inc.",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "20000",
+                    "note": "PRODUCTION COST:  VIDEO",
+                    "party": "D",
+                    "payee": "ONMESSAGE INC.",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00637512",
+                    "pacshort": "America First Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Biden, Joe",
+                    "district": "PRES",
+                    "amount": "20000",
+                    "note": "PRODUCTION COST: VIDEO",
+                    "party": "D",
+                    "payee": "REDPRINT STRATEGY",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00504530",
+                    "pacshort": "Congressional Leadership Fund",
+                    "suppopp": "AGAINST:",
+                    "candname": "Smith, Christy",
+                    "district": "CA25",
+                    "amount": "11000",
+                    "note": "Media production",
+                    "party": "D",
+                    "payee": "RedPrint Strategy",
+                    "date": "2020-04-15 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "288447",
+                    "note": "Ad Buy (Estimate)",
+                    "party": "R",
+                    "payee": "Targeted Platform Media LLC",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00504530",
+                    "pacshort": "Congressional Leadership Fund",
+                    "suppopp": "AGAINST:",
+                    "candname": "Smith, Christy",
+                    "district": "CA25",
+                    "amount": "177000",
+                    "note": "Media placement",
+                    "party": "D",
+                    "payee": "FlexPoint Media",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00608489",
+                    "pacshort": "Great America PAC",
+                    "suppopp": "FOR:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "76301",
+                    "note": "ONLINE VOTER CONTACT",
+                    "party": "R",
+                    "payee": "CAMPAIGN SOLUTIONS",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00504530",
+                    "pacshort": "Congressional Leadership Fund",
+                    "suppopp": "AGAINST:",
+                    "candname": "Smith, Christy",
+                    "district": "CA25",
+                    "amount": "42968",
+                    "note": "Direct mail",
+                    "party": "D",
+                    "payee": "Meridian Pacific",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00657866",
+                    "pacshort": "Protect Freedom PAC",
+                    "suppopp": "FOR:",
+                    "candname": "Gurtler, Matt",
+                    "district": "GA09",
+                    "amount": "30002",
+                    "note": "Direct Mail",
+                    "party": "R",
+                    "payee": "RightVoter",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00495861",
+                    "pacshort": "Priorities USA Action",
+                    "suppopp": "AGAINST:",
+                    "candname": "Trump, Donald",
+                    "district": "PRES",
+                    "amount": "10837",
+                    "note": "Ad Production (Estimate)",
+                    "party": "R",
+                    "payee": "Magnus Pearson Media",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00737361",
+                    "pacshort": "REPUBLICAN LEADERSHIP FOR OREGON",
+                    "suppopp": "FOR:",
+                    "candname": "Buehler, Knute",
+                    "district": "OR02",
+                    "amount": "8500",
+                    "note": "TV MEDIA PRODUCTION",
+                    "party": "R",
+                    "payee": "ASCENT MEDIA LLC",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00737361",
+                    "pacshort": "REPUBLICAN LEADERSHIP FOR OREGON",
+                    "suppopp": "FOR:",
+                    "candname": "Buehler, Knute",
+                    "district": "OR02",
+                    "amount": "8281",
+                    "note": "PRINTING/POSTAGE",
+                    "party": "R",
+                    "payee": "RED MAVERICK MEDIA LLC",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00030718",
+                    "pacshort": "National Assn of Realtors",
+                    "suppopp": "FOR:",
+                    "candname": "Smith, Christy",
+                    "district": "CA25",
+                    "amount": "7175",
+                    "note": "Facebook Ad Design Costs",
+                    "party": "D",
+                    "payee": "A-D Strategies LLC",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            },
+            {
+                "@attributes": {
+                    "cmteid": "C00448696",
+                    "pacshort": "Senate Conservatives Fund",
+                    "suppopp": "FOR:",
+                    "candname": "Daines, Steven",
+                    "district": "MTS2",
+                    "amount": "5180",
+                    "note": "IE-Daines-Email Marketing",
+                    "party": "R",
+                    "payee": "Connell Donatelli Inc",
+                    "date": "2020-04-14 00:05:00.000",
+                    "origin": "Center for Responsive Politics",
+                    "source": "http://www.opensecrets.org/"
+                }
+            }
+        ]
+    }
+}

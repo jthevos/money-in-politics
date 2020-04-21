@@ -1,0 +1,160 @@
+{
+    "response": {
+        "member_profile": {
+            "@attributes": {
+                "name": "Pelosi, Nancy",
+                "data_year": "2016",
+                "member_id": "N00007360",
+                "net_low": "-16225953",
+                "net_high": "139050988",
+                "positions_held_count": "0",
+                "asset_count": "44",
+                "asset_low": "32824047",
+                "asset_high": "150016000",
+                "transaction_count": "0",
+                "tx_low": "0",
+                "tx_high": "0",
+                "source": "https://www.opensecrets.org/personal-finances/net-worth?cid=N00007360",
+                "origin": "Center for Responsive Politics",
+                "update_timestamp": "10/31/18"
+            },
+            "assets": {
+                "asset": [
+                    {
+                        "@attributes": {
+                            "name": "11 Zinfandel Lane - Home & Vineyard",
+                            "holdings_low": "5000001",
+                            "holdings_high": "25000000",
+                            "industry": "Beer, Wine & Liquor",
+                            "sector": "Misc Business",
+                            "subsidiary_of": ""
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "name": "25 Point Lobos - Commercial Property",
+                            "holdings_low": "5000001",
+                            "holdings_high": "25000000",
+                            "industry": "Real Estate",
+                            "sector": "Finance/Insur/RealEst",
+                            "subsidiary_of": ""
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "name": "Nine Forty Five Battery LLC",
+                            "holdings_low": "5000001",
+                            "holdings_high": "25000000",
+                            "industry": "Real Estate",
+                            "sector": "Finance/Insur/RealEst",
+                            "subsidiary_of": ""
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "name": "Russell Ranch LLC",
+                            "holdings_low": "5000001",
+                            "holdings_high": "25000000",
+                            "industry": "Livestock",
+                            "sector": "Agribusiness",
+                            "subsidiary_of": ""
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "name": "Apple Inc",
+                            "holdings_low": "1500002",
+                            "holdings_high": "6000000",
+                            "industry": "Electronics Mfg & Equip",
+                            "sector": "Communic/Electronics",
+                            "subsidiary_of": ""
+                        }
+                    }
+                ]
+            },
+            "transactions": {
+                "transaction": [
+                    {
+                        "@attributes": {
+                            "asset_name": "United Football League Sacramento Mountain Lions",
+                            "tx_date": "Aug  2 2013",
+                            "tx_action": "Purchased",
+                            "value_low": "100001",
+                            "value_high": "250000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "asset_name": "United Football League Sacramento Mountain Lions",
+                            "tx_date": "Jul 18 2013",
+                            "tx_action": "Purchased",
+                            "value_low": "50001",
+                            "value_high": "100000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "asset_name": "United Football League Sacramento Mountain Lions",
+                            "tx_date": "Oct 21 2013",
+                            "tx_action": "Purchased",
+                            "value_low": "50001",
+                            "value_high": "100000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "asset_name": "United Football League Sacramento Mountain Lions",
+                            "tx_date": "Sep 30 2013",
+                            "tx_action": "Purchased",
+                            "value_low": "15001",
+                            "value_high": "50000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "asset_name": "Active Network Inc",
+                            "tx_date": "Nov 26 2013",
+                            "tx_action": "Sold",
+                            "value_low": "15001",
+                            "value_high": "50000"
+                        }
+                    }
+                ]
+            },
+            "positions": {
+                "position": [
+                    {
+                        "@attributes": {
+                            "title": "Honorary Advisory Board",
+                            "organization": "American University Women & Politics Institute"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "title": "Board of Advisors",
+                            "organization": "Close Up Foundation"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "title": "Congressional Advisory Board",
+                            "organization": "International Women's Democracy Center"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "title": "Board of Trustees Member Ex Officio",
+                            "organization": "Kennedy Center for the Performing Arts"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "title": "Honorary Board of Advisors",
+                            "organization": "Lead America"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
