@@ -1,4 +1,5 @@
 {
+    "_comment": "https://www.opensecrets.org/api/?method=getOrgs&org=Goldman&apikey=97d72deccf8595a00c278e46e19939f9&output=json",
     "response": {
         "organization": [
             {

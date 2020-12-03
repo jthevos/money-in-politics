@@ -10,29 +10,43 @@ from django.shortcuts import redirect
 
 from django.conf import settings
 import requests
+from django.urls import reverse
 
-from xml.etree import ElementTree
-
-
-from .serializer import LegislatorSerializer, OrganizationSerializer
-
-
-import requests
-from . forms import SubmitLegislator, GetOrganization
-from . import models
+from . serializer import LegislatorSerializer, OrganizationSerializer
+from . forms import SubmitLegislator, AddOrganization
+from . models import *
 
 
 class LegislatorView(generic.DetailView):
     template_name = 'legislator.html'
-    model = models.Legislator
+    model = Legislator
+
+class LegislatorListView(generic.ListView):
+    template_name = 'legislator_list.html'
+    model = Legislator
 
 class OrganizationView(generic.DetailView):
     template_name = 'organization.html'
-    model = models.Legislator
+    model = Organization
 
+def index(request):
+
+    num_leg = Legislator.objects.all().count()
+    context = {
+        'num_leg': num_leg,
+    }
+
+    return render(request, 'index.html', context=context)
 
 def add_legislators(request):
-
+    """
+    This view handles the adding of one or several legislators. If attempting
+    to add multiple legislators (e.g., all legislators from South Carolina),
+    the response object's ['legislator'] attribute will be a list which is
+    not the case when adding a single legislator. Thus, this view handles
+    the construction of a custom response object so that single and multiple
+    legislator additions can be handled in the same way.
+    """
     if request.method == "POST":
         form = SubmitLegislator(request.POST)
         if form.is_valid():
@@ -46,62 +60,39 @@ def add_legislators(request):
             validation_queue = []
             response = { 'legislators' : [] }
 
-            multiple_legislators = len(legislators) != 1
+            single_legislator = len(legislators) == 1
 
-            if not multiple_legislators:
+            if single_legislator:
                 legislator = json['response']['legislator']['@attributes']
                 validation_queue.append(legislator)
             else:
                 for i in range(len(legislators)):
                     legislator = legislators[i]['@attributes']
                     validation_queue.append(legislator)
-            print(legislators)
-
+                    return redirect(reverse('legislator', kwargs={'pk': legislator.cid}))
             for legislator in validation_queue:
-
-                #serializer = LegislatorSerializer(data=legislators['@attributes'])
                 serializer = LegislatorSerializer(data=legislator)
                 if serializer.is_valid():
                     legislator = serializer.save()
                     response['legislators'].append({'legislator': legislator})
                 else:
-                    print('The error is in the serializer')
                     print(serializer.errors)
+                    return None
 
 
             return render(request, 'legislator_list.html', {'form': form, 'legislators': response['legislators']})
-
-
-            # if len(legislators) == 1:
-            #     serializer = LegislatorSerializer(data=legislators['@attributes'])
-            #     if serializer.is_valid():
-            #         legislator = serializer.save()
-            #         response['legislators'].append({'legislator': legislator})
-            #         return render(request, 'legislator.html', {'form': form, 'legislators': response['legislators']})
-            #     else:
-            #         print(serializer.errors)
-            # else:
-            #     for i in range(len(legislators)):
-            #         serializer = LegislatorSerializer(data=legislators[i]['@attributes'])
-            #         if serializer.is_valid():
-            #             legislator = serializer.save()
-            #             response['legislators'].append({'legislator': legislator})
-            #         else:
-            #             print(serializer.errors)
-            #
-            #     return render(request, 'legislator.html', {'form': form, 'legislators': response['legislators']})
+            #)
 
     else:
         form = SubmitLegislator()
 
-    return render(request, 'index.html', {'form': form})
+    return render(request, 'legislator_list.html', {'form': form})
 
 
-
-def org_summary(request):
+def add_organization(request):
 
     if request.method == "POST":
-        form = GetOrganization(request.POST)
+        form = AddOrganization(request.POST)
         if form.is_valid():
             id = form.cleaned_data['orgid']
 
@@ -114,19 +105,15 @@ def org_summary(request):
             serializer = OrganizationSerializer(data=org['@attributes'])
             if serializer.is_valid():
                 organization = serializer.save()
-                return render(request, 'organization.html', {'form': form, 'organization': org})
+                return redirect(reverse('organization', kwargs={'pk': organization.orgid}))
             else:
                 print(serializer.errors)
 
-
     else:
-        form = GetOrganization()
+        form = GetOrganization(request.GET)
 
     return render(request, 'organization.html', {'form': form })
 
-
-def view_leg(request):
-    return get_object_or_404(models.Legislator, cid='N00007360')
 
 class AdminView(TemplateView):
     template_name = 'birdie/admin.html'

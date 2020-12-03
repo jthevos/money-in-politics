@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+    <h1>Show Me The Money</h1>
+    <p>Welcome to Show Me The Money</p>
+    <h2>Dynamic content</h2>
+    <p></p>
     <form action="/" method="POST">
         {% csrf_token %}
         {{ form }}

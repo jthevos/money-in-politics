@@ -1,0 +1,24 @@
+{
+    "_comment": "https://www.opensecrets.org/api/?method=candSummary&cid=N00007360&apikey=97d72deccf8595a00c278e46e19939f9&output=json",
+    "response": {
+        "summary": {
+            "@attributes": {
+                "cand_name": "Pelosi, Nancy",
+                "cid": "N00007360",
+                "cycle": "2020",
+                "state": "CA",
+                "party": "D",
+                "chamber": "H",
+                "first_elected": "1987",
+                "next_election": "2020",
+                "total": "8316866.76",
+                "spent": "5786773.71",
+                "cash_on_hand": "3534910.87",
+                "debt": "0",
+                "origin": "Center for Responsive Politics",
+                "source": "https://www.opensecrets.org/members-of-congress/summary?cid=N00007360&cycle=2020",
+                "last_updated": "03/31/2020"
+            }
+        }
+    }
+}

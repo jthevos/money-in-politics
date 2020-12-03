@@ -1,0 +1,107 @@
+{
+    "_comment": "https://www.opensecrets.org/api/?method=candIndustry&cid=N00007360&apikey=97d72deccf8595a00c278e46e19939f9&output=json",
+    "response": {
+        "industries": {
+            "@attributes": {
+                "cand_name": "Nancy Pelosi (D)",
+                "cid": "N00007360",
+                "cycle": "2018",
+                "origin": "Center for Responsive Politics",
+                "source": "https://www.opensecrets.org/members-of-congress/industries?cid=N00007360&cycle=2018",
+                "last_updated": "06/10/2019"
+            },
+            "industry": [
+                {
+                    "@attributes": {
+                        "industry_code": "W06",
+                        "industry_name": "Retired",
+                        "indivs": "758032",
+                        "pacs": "0",
+                        "total": "758032"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "H01",
+                        "industry_name": "Health Professionals",
+                        "indivs": "103429",
+                        "pacs": "205500",
+                        "total": "308929"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "W04",
+                        "industry_name": "Education",
+                        "indivs": "166846",
+                        "pacs": "0",
+                        "total": "166846"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "K01",
+                        "industry_name": "Lawyers/Law Firms",
+                        "indivs": "98735",
+                        "pacs": "34000",
+                        "total": "132735"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "F10",
+                        "industry_name": "Real Estate",
+                        "indivs": "96714",
+                        "pacs": "35000",
+                        "total": "131714"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "H02",
+                        "industry_name": "Hospitals/Nursing Homes",
+                        "indivs": "19348",
+                        "pacs": "76500",
+                        "total": "95848"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "B12",
+                        "industry_name": "Electronics Mfg & Equip",
+                        "indivs": "49258",
+                        "pacs": "45000",
+                        "total": "94258"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "P04",
+                        "industry_name": "Public Sector Unions",
+                        "indivs": "230",
+                        "pacs": "88500",
+                        "total": "88730"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "F07",
+                        "industry_name": "Securities & Investment",
+                        "indivs": "46007",
+                        "pacs": "38500",
+                        "total": "84507"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "industry_code": "F09",
+                        "industry_name": "Insurance",
+                        "indivs": "13966",
+                        "pacs": "60500",
+                        "total": "74466"
+                    }
+                }
+            ]
+        }
+    }
+}

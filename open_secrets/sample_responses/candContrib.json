@@ -1,0 +1,97 @@
+{
+    "_comment": "https://www.opensecrets.org/api/?method=candContrib&cid=N00007360&apikey=97d72deccf8595a00c278e46e19939f9&output=json",
+    "response": {
+        "contributors": {
+            "@attributes": {
+                "cand_name": "Nancy Pelosi (D)",
+                "cid": "N00007360",
+                "cycle": "2018",
+                "origin": "Center for Responsive Politics",
+                "source": "https://www.opensecrets.org/members-of-congress/contributors?cid=N00007360&cycle=2018",
+                "notice": "The organizations themselves did not donate, rather the money came from the organization's PAC, its individual members or employees or owners, and those individuals' immediate families."
+            },
+            "contributor": [
+                {
+                    "@attributes": {
+                        "org_name": "Facebook Inc",
+                        "total": "15500",
+                        "pacs": "10000",
+                        "indivs": "5500"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Salesforce.com",
+                        "total": "14150",
+                        "pacs": "2500",
+                        "indivs": "11650"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Intel Corp",
+                        "total": "13060",
+                        "pacs": "7500",
+                        "indivs": "5560"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Amazon.com",
+                        "total": "12750",
+                        "pacs": "10000",
+                        "indivs": "2750"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Google Inc",
+                        "total": "11931",
+                        "pacs": "10000",
+                        "indivs": "1931"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "National Football League",
+                        "total": "11000",
+                        "pacs": "10000",
+                        "indivs": "1000"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Lieff, Cabraser et al",
+                        "total": "10830",
+                        "pacs": "0",
+                        "indivs": "10830"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Certain Software Inc",
+                        "total": "10800",
+                        "pacs": "0",
+                        "indivs": "10800"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Flynn Investments",
+                        "total": "10800",
+                        "pacs": "0",
+                        "indivs": "10800"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "org_name": "Puma Springs Vineyards",
+                        "total": "10800",
+                        "pacs": "0",
+                        "indivs": "10800"
+                    }
+                }
+            ]
+        }
+    }
+}
